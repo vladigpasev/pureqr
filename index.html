@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PureQR - Free Client-Side QR Code Generator</title>
+    <meta
+      name="description"
+      content="Create custom QR codes for text, links, Wi-Fi, and contacts directly in your browser. Free SVG and PNG QR code export with no tracking, no short links, and no server storage."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#0f7f5c" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PureQR - Free Client-Side QR Code Generator" />
+    <meta
+      property="og:description"
+      content="A simple browser-only QR encoder with SVG and PNG export. No URL shortener, no tracking, no uploaded content."
+    />
+    <meta property="og:url" content="https://pureqr.vercel.app/" />
+    <meta property="og:site_name" content="PureQR" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="PureQR - Free Client-Side QR Code Generator" />
+    <meta
+      name="twitter:description"
+      content="Generate high-quality QR codes in your browser. Export SVG or PNG. Nothing is stored on a server."
+    />
+    <link rel="canonical" href="https://pureqr.vercel.app/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "PureQR",
+        "url": "https://pureqr.vercel.app/",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "description": "A free browser-only QR code encoder for text, links, Wi-Fi credentials, and contact cards with SVG and PNG export."
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      PureQR needs JavaScript because QR codes are generated locally in your browser. No content is uploaded to a server.
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

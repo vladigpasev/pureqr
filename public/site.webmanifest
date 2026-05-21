@@ -1,0 +1,16 @@
+{
+  "name": "PureQR",
+  "short_name": "PureQR",
+  "description": "Free client-side QR code generator.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f7f5c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
