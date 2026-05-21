@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pureqr.vercel.app/sitemap.xml
+Sitemap: https://pureqr-six.vercel.app/sitemap.xml

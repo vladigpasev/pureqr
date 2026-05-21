@@ -24,7 +24,7 @@ export interface QRRenderResult {
 const HEX_COLOR = /^#[0-9a-fA-F]{6}$/;
 
 export function renderQrSvg(options: QRRenderOptions): QRRenderResult {
-  const payload = options.data.trim() || "https://pureqr.vercel.app/";
+  const payload = options.data.trim() || "https://pureqr-six.vercel.app/";
   const foreground = cleanColor(options.foreground, "#111827");
   const background = cleanColor(options.background, "#ffffff");
   const margin = clamp(Math.round(options.margin), 2, 12);

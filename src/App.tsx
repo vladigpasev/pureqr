@@ -45,7 +45,7 @@ const tabs: Array<{ id: Preset; label: string }> = [
 function App() {
   const [preset, setPreset] = useState<Preset>("url");
   const [text, setText] = useState("Create QR codes without uploading anything.");
-  const [url, setUrl] = useState("https://pureqr.vercel.app/");
+  const [url, setUrl] = useState("https://pureqr-six.vercel.app/");
   const [ssid, setSsid] = useState("Guest Wi-Fi");
   const [password, setPassword] = useState("");
   const [encryption, setEncryption] = useState<Encryption>("WPA");
@@ -54,7 +54,7 @@ function App() {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [organization, setOrganization] = useState("");
-  const [website, setWebsite] = useState("https://pureqr.vercel.app/");
+  const [website, setWebsite] = useState("https://pureqr-six.vercel.app/");
   const [foreground, setForeground] = useState("#111827");
   const [background, setBackground] = useState("#ffffff");
   const [shape, setShape] = useState<ModuleShape>("rounded");
