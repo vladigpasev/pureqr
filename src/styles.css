@@ -620,7 +620,9 @@ footer a {
 
   nav {
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 18px;
   }
 
   .generator {
